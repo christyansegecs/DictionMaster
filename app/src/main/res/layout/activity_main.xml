@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_stroke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp" >
+
+        <ImageSwitcher
+            android:id="@+id/flagImageSwitcher"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_condensed_light"
+            tools:text="ENGLISH"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:paddingStart="7dp"
+            android:textColor="#052D39" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Type a word..."
+        android:textSize="32dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:layout_marginTop="202dp"
+        android:textColor="#052D39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:text="SEARCH"
+        android:background="@drawable/button_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etWord"
+        app:backgroundTint="@null"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
