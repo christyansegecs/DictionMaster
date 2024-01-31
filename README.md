@@ -38,7 +38,7 @@
 
 ## Download
 
-Faça o download do Aplicativo clicando aqui >> <a href="apk/DictionMaster.apk?raw=true">DictionMaster APK</a>
+Faça o download do Aplicativo clicando aqui >> <a href="apk/DictionMaster.apk">DictionMaster APK</a>
 </br>
 Você pode ver <a href="https://www.google.com/search?q=como+instalar+um+apk+no+android">aqui</a> como instalar uma APK no seu aparelho android.
 
